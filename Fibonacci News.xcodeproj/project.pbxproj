@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0DAE7F2879823F00DF72C9 /* Fibonacci_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE7E2879823F00DF72C9 /* Fibonacci_NewsApp.swift */; };
+		8B0DAE812879823F00DF72C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE802879823F00DF72C9 /* ContentView.swift */; };
+		8B0DAE832879824200DF72C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DAE822879824200DF72C9 /* Assets.xcassets */; };
+		8B0DAE862879824200DF72C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DAE852879824200DF72C9 /* Preview Assets.xcassets */; };
+		8B0DAE902879824200DF72C9 /* Fibonacci_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE8F2879824200DF72C9 /* Fibonacci_NewsTests.swift */; };
+		8B0DAE9A2879824200DF72C9 /* Fibonacci_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE992879824200DF72C9 /* Fibonacci_NewsUITests.swift */; };
+		8B0DAE9C2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE9B2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B0DAE8C2879824200DF72C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0DAE732879823F00DF72C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0DAE7A2879823F00DF72C9;
+			remoteInfo = "Fibonacci News";
+		};
+		8B0DAE962879824200DF72C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0DAE732879823F00DF72C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0DAE7A2879823F00DF72C9;
+			remoteInfo = "Fibonacci News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0DAE7B2879823F00DF72C9 /* Fibonacci News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fibonacci News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0DAE7E2879823F00DF72C9 /* Fibonacci_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_NewsApp.swift; sourceTree = "<group>"; };
+		8B0DAE802879823F00DF72C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B0DAE822879824200DF72C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B0DAE852879824200DF72C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B0DAE8B2879824200DF72C9 /* Fibonacci NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0DAE8F2879824200DF72C9 /* Fibonacci_NewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_NewsTests.swift; sourceTree = "<group>"; };
+		8B0DAE952879824200DF72C9 /* Fibonacci NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fibonacci NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0DAE992879824200DF72C9 /* Fibonacci_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_NewsUITests.swift; sourceTree = "<group>"; };
+		8B0DAE9B2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0DAE782879823F00DF72C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE882879824200DF72C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE922879824200DF72C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0DAE722879823F00DF72C9 = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE7D2879823F00DF72C9 /* Fibonacci News */,
+				8B0DAE8E2879824200DF72C9 /* Fibonacci NewsTests */,
+				8B0DAE982879824200DF72C9 /* Fibonacci NewsUITests */,
+				8B0DAE7C2879823F00DF72C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0DAE7C2879823F00DF72C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE7B2879823F00DF72C9 /* Fibonacci News.app */,
+				8B0DAE8B2879824200DF72C9 /* Fibonacci NewsTests.xctest */,
+				8B0DAE952879824200DF72C9 /* Fibonacci NewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0DAE7D2879823F00DF72C9 /* Fibonacci News */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE7E2879823F00DF72C9 /* Fibonacci_NewsApp.swift */,
+				8B0DAE802879823F00DF72C9 /* ContentView.swift */,
+				8B0DAE822879824200DF72C9 /* Assets.xcassets */,
+				8B0DAE842879824200DF72C9 /* Preview Content */,
+			);
+			path = "Fibonacci News";
+			sourceTree = "<group>";
+		};
+		8B0DAE842879824200DF72C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE852879824200DF72C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B0DAE8E2879824200DF72C9 /* Fibonacci NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE8F2879824200DF72C9 /* Fibonacci_NewsTests.swift */,
+			);
+			path = "Fibonacci NewsTests";
+			sourceTree = "<group>";
+		};
+		8B0DAE982879824200DF72C9 /* Fibonacci NewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE992879824200DF72C9 /* Fibonacci_NewsUITests.swift */,
+				8B0DAE9B2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift */,
+			);
+			path = "Fibonacci NewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B0DAE7A2879823F00DF72C9 /* Fibonacci News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0DAE9F2879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci News" */;
+			buildPhases = (
+				8B0DAE772879823F00DF72C9 /* Sources */,
+				8B0DAE782879823F00DF72C9 /* Frameworks */,
+				8B0DAE792879823F00DF72C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fibonacci News";
+			productName = "Fibonacci News";
+			productReference = 8B0DAE7B2879823F00DF72C9 /* Fibonacci News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B0DAE8A2879824200DF72C9 /* Fibonacci NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0DAEA22879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci NewsTests" */;
+			buildPhases = (
+				8B0DAE872879824200DF72C9 /* Sources */,
+				8B0DAE882879824200DF72C9 /* Frameworks */,
+				8B0DAE892879824200DF72C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0DAE8D2879824200DF72C9 /* PBXTargetDependency */,
+			);
+			name = "Fibonacci NewsTests";
+			productName = "Fibonacci NewsTests";
+			productReference = 8B0DAE8B2879824200DF72C9 /* Fibonacci NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B0DAE942879824200DF72C9 /* Fibonacci NewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0DAEA52879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci NewsUITests" */;
+			buildPhases = (
+				8B0DAE912879824200DF72C9 /* Sources */,
+				8B0DAE922879824200DF72C9 /* Frameworks */,
+				8B0DAE932879824200DF72C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0DAE972879824200DF72C9 /* PBXTargetDependency */,
+			);
+			name = "Fibonacci NewsUITests";
+			productName = "Fibonacci NewsUITests";
+			productReference = 8B0DAE952879824200DF72C9 /* Fibonacci NewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0DAE732879823F00DF72C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8B0DAE7A2879823F00DF72C9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					8B0DAE8A2879824200DF72C9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B0DAE7A2879823F00DF72C9;
+					};
+					8B0DAE942879824200DF72C9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8B0DAE7A2879823F00DF72C9;
+					};
+				};
+			};
+			buildConfigurationList = 8B0DAE762879823F00DF72C9 /* Build configuration list for PBXProject "Fibonacci News" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0DAE722879823F00DF72C9;
+			productRefGroup = 8B0DAE7C2879823F00DF72C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0DAE7A2879823F00DF72C9 /* Fibonacci News */,
+				8B0DAE8A2879824200DF72C9 /* Fibonacci NewsTests */,
+				8B0DAE942879824200DF72C9 /* Fibonacci NewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0DAE792879823F00DF72C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DAE862879824200DF72C9 /* Preview Assets.xcassets in Resources */,
+				8B0DAE832879824200DF72C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE892879824200DF72C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE932879824200DF72C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0DAE772879823F00DF72C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DAE812879823F00DF72C9 /* ContentView.swift in Sources */,
+				8B0DAE7F2879823F00DF72C9 /* Fibonacci_NewsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE872879824200DF72C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DAE902879824200DF72C9 /* Fibonacci_NewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0DAE912879824200DF72C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DAE9C2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift in Sources */,
+				8B0DAE9A2879824200DF72C9 /* Fibonacci_NewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B0DAE8D2879824200DF72C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0DAE7A2879823F00DF72C9 /* Fibonacci News */;
+			targetProxy = 8B0DAE8C2879824200DF72C9 /* PBXContainerItemProxy */;
+		};
+		8B0DAE972879824200DF72C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0DAE7A2879823F00DF72C9 /* Fibonacci News */;
+			targetProxy = 8B0DAE962879824200DF72C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B0DAE9D2879824200DF72C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B0DAE9E2879824200DF72C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B0DAEA02879824200DF72C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fibonacci News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0DAEA12879824200DF72C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fibonacci News/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B0DAEA32879824200DF72C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fibonacci News.app/Fibonacci News";
+			};
+			name = Debug;
+		};
+		8B0DAEA42879824200DF72C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fibonacci News.app/Fibonacci News";
+			};
+			name = Release;
+		};
+		8B0DAEA62879824200DF72C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fibonacci News";
+			};
+			name = Debug;
+		};
+		8B0DAEA72879824200DF72C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rricamar.Fibonacci-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fibonacci News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0DAE762879823F00DF72C9 /* Build configuration list for PBXProject "Fibonacci News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DAE9D2879824200DF72C9 /* Debug */,
+				8B0DAE9E2879824200DF72C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0DAE9F2879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DAEA02879824200DF72C9 /* Debug */,
+				8B0DAEA12879824200DF72C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0DAEA22879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DAEA32879824200DF72C9 /* Debug */,
+				8B0DAEA42879824200DF72C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0DAEA52879824200DF72C9 /* Build configuration list for PBXNativeTarget "Fibonacci NewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DAEA62879824200DF72C9 /* Debug */,
+				8B0DAEA72879824200DF72C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0DAE732879823F00DF72C9 /* Project object */;
+}
