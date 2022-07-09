@@ -16,6 +16,7 @@
 		8B0DAE9C2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAE9B2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift */; };
 		8B0DAEAB2879839800DF72C9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEAA2879839800DF72C9 /* Post.swift */; };
 		8B0DAEB02879855F00DF72C9 /* HnAlgolia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEAF2879855F00DF72C9 /* HnAlgolia.swift */; };
+		8B0DAEB228798FAD00DF72C9 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEB128798FAD00DF72C9 /* PostList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8B0DAE9B2879824200DF72C9 /* Fibonacci_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B0DAEAA2879839800DF72C9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8B0DAEAF2879855F00DF72C9 /* HnAlgolia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HnAlgolia.swift; sourceTree = "<group>"; };
+		8B0DAEB128798FAD00DF72C9 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				8B0DAE802879823F00DF72C9 /* ContentView.swift */,
+				8B0DAEB128798FAD00DF72C9 /* PostList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0DAEAB2879839800DF72C9 /* Post.swift in Sources */,
+				8B0DAEB228798FAD00DF72C9 /* PostList.swift in Sources */,
 				8B0DAE812879823F00DF72C9 /* ContentView.swift in Sources */,
 				8B0DAEB02879855F00DF72C9 /* HnAlgolia.swift in Sources */,
 				8B0DAE7F2879823F00DF72C9 /* Fibonacci_NewsApp.swift in Sources */,

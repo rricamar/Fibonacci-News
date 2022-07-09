@@ -1,8 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    static var navBarTitle = "Fibonacci News"
-    
     @ObservedObject var hnAlgoliaService = HnAlgoliaService()
     
     var body: some View {
@@ -11,16 +9,6 @@ struct ContentView: View {
         }
     }
 }
-
-
-struct PostList: View {
-    var posts: [Post]
-    
-    var body: some View {
-        List(posts) { post in PostView(post: post) }.navigationTitle(ContentView.navBarTitle)
-    }
-}
-
 
 struct PostView: View {
     var post: Post
@@ -37,7 +25,5 @@ struct PostView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-        
     }
-    
 }
