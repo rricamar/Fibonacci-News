@@ -19,7 +19,7 @@ struct PostList_Previews: PreviewProvider {
             objectID: "1",
             points: 100,
             title: "Mock Post 1",
-            url: ""
+            url: "Mock Url"
         )
     ]
     
