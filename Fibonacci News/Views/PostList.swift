@@ -1,17 +1,29 @@
 import SwiftUI
 
 struct PostList: View {
-    static var navBarTitle = "Fibonacci News"
-    
+    static private var navBarTitle = "Fibonacci News"
+
+    @State var showWebView = false
+    @State var nextPostUrl = ""
+
     var posts: [Post]
-    
+
     var body: some View {
         List(posts) { post in
             PostView(post: post)
-        }.navigationTitle(PostList.navBarTitle)
+                .onTapGesture {
+                    if let safeUrl = post.url {
+                        nextPostUrl = safeUrl
+                        showWebView = true
+                    }
+                }
+                .sheet(isPresented: $showWebView) {
+                    WebView(url: $nextPostUrl)
+                }
+        }
+        .navigationTitle(PostList.navBarTitle)
     }
 }
-
 
 struct PostList_Previews: PreviewProvider {
     static let mockPosts: [Post] = [
@@ -22,7 +34,7 @@ struct PostList_Previews: PreviewProvider {
             url: "Mock Url"
         )
     ]
-    
+
     static var previews: some View {
         PostList(posts: PostList_Previews.mockPosts)
     }
