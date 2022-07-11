@@ -52,6 +52,7 @@
 		8B0DAEAF2879855F00DF72C9 /* HnAlgolia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HnAlgolia.swift; sourceTree = "<group>"; };
 		8B0DAEB128798FAD00DF72C9 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		8B0DAEB32879936000DF72C9 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		8B0DAEB5287BF8FF00DF72C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		8B0DAE722879823F00DF72C9 = {
 			isa = PBXGroup;
 			children = (
+				8B0DAEB5287BF8FF00DF72C9 /* README.md */,
 				8B0DAE7D2879823F00DF72C9 /* Fibonacci News */,
 				8B0DAE8E2879824200DF72C9 /* Fibonacci NewsTests */,
 				8B0DAE982879824200DF72C9 /* Fibonacci NewsUITests */,
