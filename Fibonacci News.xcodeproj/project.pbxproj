@@ -19,6 +19,8 @@
 		8B0DAEB228798FAD00DF72C9 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEB128798FAD00DF72C9 /* PostList.swift */; };
 		8B0DAEB42879936000DF72C9 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEB32879936000DF72C9 /* PostView.swift */; };
 		8B0DAEB7287C01EA00DF72C9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEB6287C01EA00DF72C9 /* WebView.swift */; };
+		8B0DAEBA287C3DE500DF72C9 /* PostHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEB9287C3DE500DF72C9 /* PostHelper.swift */; };
+		8B0DAEBC287C3F2F00DF72C9 /* PostHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DAEBB287C3F2F00DF72C9 /* PostHelperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		8B0DAEB32879936000DF72C9 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		8B0DAEB5287BF8FF00DF72C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B0DAEB6287C01EA00DF72C9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8B0DAEB9287C3DE500DF72C9 /* PostHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHelper.swift; sourceTree = "<group>"; };
+		8B0DAEBB287C3F2F00DF72C9 /* PostHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHelperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		8B0DAE7D2879823F00DF72C9 /* Fibonacci News */ = {
 			isa = PBXGroup;
 			children = (
+				8B0DAEB8287C3DC800DF72C9 /* Helpers */,
 				8B0DAEAC2879843D00DF72C9 /* Services */,
 				8B0DAEA92879836B00DF72C9 /* Models */,
 				8B0DAEA82879833400DF72C9 /* Views */,
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				8B0DAE8F2879824200DF72C9 /* Fibonacci_NewsTests.swift */,
+				8B0DAEBB287C3F2F00DF72C9 /* PostHelperTests.swift */,
 			);
 			path = "Fibonacci NewsTests";
 			sourceTree = "<group>";
@@ -166,6 +172,14 @@
 				8B0DAEAF2879855F00DF72C9 /* HnAlgolia.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		8B0DAEB8287C3DC800DF72C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAEB9287C3DE500DF72C9 /* PostHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0DAEAB2879839800DF72C9 /* Post.swift in Sources */,
+				8B0DAEBA287C3DE500DF72C9 /* PostHelper.swift in Sources */,
 				8B0DAEB228798FAD00DF72C9 /* PostList.swift in Sources */,
 				8B0DAE812879823F00DF72C9 /* ContentView.swift in Sources */,
 				8B0DAEB02879855F00DF72C9 /* HnAlgolia.swift in Sources */,
@@ -313,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B0DAE902879824200DF72C9 /* Fibonacci_NewsTests.swift in Sources */,
+				8B0DAEBC287C3F2F00DF72C9 /* PostHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

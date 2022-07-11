@@ -5,13 +5,12 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            PostList(posts: hnAlgoliaService.posts)
+            PostList(posts: filterValidPosts(posts: hnAlgoliaService.posts))
         }.onAppear {
             hnAlgoliaService.list()
         }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

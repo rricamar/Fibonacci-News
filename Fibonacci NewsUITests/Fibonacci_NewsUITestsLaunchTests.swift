@@ -1,10 +1,3 @@
-//
-//  Fibonacci_NewsUITestsLaunchTests.swift
-//  Fibonacci NewsUITests
-//
-//  Created by Ruben Sopra on 9/7/22.
-//
-
 import XCTest
 
 class Fibonacci_NewsUITestsLaunchTests: XCTestCase {
