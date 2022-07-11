@@ -4,8 +4,10 @@ struct PostView: View {
     var post: Post
     
     var body: some View {
-        HStack {
+        HStack (alignment: .top) {
             Text(String(post.points))
+                .foregroundColor(.red)
+            
             Text(post.title)
         }
     }
