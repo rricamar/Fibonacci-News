@@ -3,6 +3,7 @@ import XCTest
 @testable import Fibonacci_News
 
 class PostHelperTests: XCTestCase {
+    
     func testPostHelper_filterValidPosts_shouldReturnOnlyPostsWithUrl() throws {
         let mockPosts: [Post] = [
             Post(objectID: "1", points: 100, title: "Mock Post 1", url: "Mock Url (Valid Url)"),
@@ -15,5 +16,6 @@ class PostHelperTests: XCTestCase {
         XCTAssertEqual(filteredPosts.count, 1)
         XCTAssertEqual(filteredPosts[0].url, "Mock Url (Valid Url)")
     }
+    
 }
 

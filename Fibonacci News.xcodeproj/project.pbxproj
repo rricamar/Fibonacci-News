@@ -110,13 +110,13 @@
 		8B0DAE7D2879823F00DF72C9 /* Fibonacci News */ = {
 			isa = PBXGroup;
 			children = (
+				8B0DAEBD287C53A900DF72C9 /* App */,
+				8B0DAE822879824200DF72C9 /* Assets.xcassets */,
+				8B0DAE842879824200DF72C9 /* Preview Content */,
 				8B0DAEB8287C3DC800DF72C9 /* Helpers */,
 				8B0DAEAC2879843D00DF72C9 /* Services */,
 				8B0DAEA92879836B00DF72C9 /* Models */,
 				8B0DAEA82879833400DF72C9 /* Views */,
-				8B0DAE7E2879823F00DF72C9 /* Fibonacci_NewsApp.swift */,
-				8B0DAE822879824200DF72C9 /* Assets.xcassets */,
-				8B0DAE842879824200DF72C9 /* Preview Content */,
 			);
 			path = "Fibonacci News";
 			sourceTree = "<group>";
@@ -180,6 +180,14 @@
 				8B0DAEB9287C3DE500DF72C9 /* PostHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B0DAEBD287C53A900DF72C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DAE7E2879823F00DF72C9 /* Fibonacci_NewsApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -5,7 +5,12 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            PostList(posts: filterValidPosts(posts: hnAlgoliaService.posts))
+            if hnAlgoliaService.posts.isEmpty {
+                ProgressView()
+            } else {
+                let validPosts: [Post] = filterValidPosts(posts: hnAlgoliaService.posts)
+                PostList(posts: validPosts)
+            }
         }.onAppear {
             hnAlgoliaService.list()
         }

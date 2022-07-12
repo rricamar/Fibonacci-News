@@ -20,6 +20,7 @@ struct PostList: View {
                 }
         }
         .navigationTitle(PostList.navBarTitle)
+        .accessibilityIdentifier("PostList")
     }
 }
 
