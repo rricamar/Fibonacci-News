@@ -12,10 +12,11 @@ A very simple app for reading news based on the `H4X0R News` app of the _iOS & S
 - [Running UI tests from command line](https://jayeshkawli.ghost.io/running-ui-tests-from-command-line)
 - [Apple Developer: Methods for Skipping Tests](https://developer.apple.com/documentation/xctest/methods_for_skipping_tests)
 - [Enable Developer Tools Access for standard user for Xcode](https://developer.apple.com/forums/thread/20840)
+- [Xcode UI Testing Cheat Sheet](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
 
 ## Testing
 
-### (Unit/UI) - Testing
+Launch command:
 
 ```bash
 xcodebuild \
